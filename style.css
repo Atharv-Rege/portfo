@@ -19,6 +19,10 @@ a {
   color: #ffb727;
   text-decoration: none;
 }
+#portfoImg {
+  width: 500px;
+  height: 200px;
+}
 
 a:hover {
   color: #ffc85a;
