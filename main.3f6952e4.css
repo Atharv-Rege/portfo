@@ -209,10 +209,9 @@ table {
 
 td,
 th {
-    padding: 0
+    padding: 0;
 }
 
-;
 @media print {
     *,
     :after,
@@ -5110,7 +5109,6 @@ button.close {
 }
 
 .text-hide {
-    font: 0/0 a;
     color: transparent;
     text-shadow: none;
     background-color: transparent;
@@ -5123,10 +5121,6 @@ button.close {
 
 .affix {
     position: fixed
-}
-
-@-ms-viewport {
-    width: device-width
 }
 
 .visible-lg,
@@ -5912,5 +5906,18 @@ textarea {
 }
 
 p {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+}
+
+.img-responsive {
+    width: auto;
+    height: auto;
+}
+
+.card-container {
+    margin-top: 60px;
+}
+
+.forFont p{
+    font-size: 1.4rem;
 }
